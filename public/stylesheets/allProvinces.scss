@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Home-Font;
+  src: url("/font.ttf");
+}
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.title {
+  font-family: Home-Font;
+  color: #f4a460;
+  font-size: 3.438rem;
+  margin-top: 3vh;
+}
+.all-provinces {
+  height: 70vh;
+  .card {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+  .b-info {
+    border: none;
+    cursor: pointer;
+    padding: 0 20px;
+    border-radius: 10%;
+    min-width: 120px;
+    height: 50px;
+    font-size: 1.25rem;
+    background-color: #fd0;
+    color: #222;
+    transition: transform 250ms;
+
+    .b-info:hover {
+      background-color: rgba(240, 210, 14, 0.779);
+      transform: translateY(-6px);
+    }
+  }
+  .img-province {
+    width: 18vw;
+    height: 18vh;
+  }
+
+  .description-province {
+    background-color: #f5f5f5;
+    width: 16vw;
+    height: 26.8vh;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 1.375rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .all-provinces {
+    height: 100%;
+  }
+
+  .title-card {
+    text-align: center;
+  }
+}

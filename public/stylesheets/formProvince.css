@@ -1,0 +1,46 @@
+body {
+  height: 110vh;
+  background-image: url("/images/background-form.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  background-color: whitesmoke;
+  margin-bottom: 10vh;
+}
+body form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+body form textarea,
+body form .province_name,
+body form .province_email,
+body form .province_tel,
+body form .province_password,
+body form .province_des {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+body form .b-submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+body form .b-submit:hover {
+  transform: translateY(-3px);
+  background-color: rgba(11, 82, 159, 0.9215686275);
+}/*# sourceMappingURL=formProvince.css.map */

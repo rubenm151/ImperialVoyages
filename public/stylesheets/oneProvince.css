@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+
+.card {
+  margin-bottom: 5vh;
+}
+.card .card-img-top {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.card .card-title {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+.card .card-text {
+  font-size: 1rem;
+  color: #555;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+.card .button-landmark {
+  background-color: #f39c12;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  margin-top: 15px;
+}
+.card .button-landmark .button-landmark:hover {
+  transform: translateY(-10px);
+}
+
+.province-name {
+  margin-top: 20vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3.125rem;
+}
+
+.image-china {
+  border-radius: 5%;
+  image-rendering: crisp-edges;
+  width: 22vw;
+  height: 22vh;
+  margin-right: 3vw;
+}
+
+.i-province {
+  height: 25vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.75rem;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 4.5vh;
+}
+
+button {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  padding: 0 20px;
+  border-radius: 10%;
+  min-width: 150px;
+  height: 50px;
+  font-size: 1.25rem;
+  background-color: #fd0;
+  color: #222;
+  transition: transform 250ms;
+}
+
+button:hover {
+  background-color: rgba(240, 210, 14, 0.779);
+  transform: translateY(-6px);
+}
+
+.title-landmark {
+  font-family: Home-Font;
+  margin-top: 12vh;
+  color: #F4A460;
+}
+
+@media (max-width: 576px) {
+  .image-china {
+    display: none;
+  }
+  .i-province {
+    margin-right: 20px;
+  }
+  .i-province button {
+    height: auto;
+  }
+}/*# sourceMappingURL=oneProvince.css.map */

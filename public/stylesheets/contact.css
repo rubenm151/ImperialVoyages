@@ -1,0 +1,33 @@
+hr {
+  background-color: darkorange;
+}
+
+.contact-img {
+  height: 40vh;
+  background-image: url("/images/contact.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.p-contact {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.25rem;
+  margin-top: 5vh;
+}
+
+.owner {
+  font-size: 1.563rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contact-info {
+  font-size: 1.375rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 4.5vh;
+}/*# sourceMappingURL=contact.css.map */

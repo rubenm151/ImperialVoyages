@@ -1,0 +1,76 @@
+body{
+  background-image: url("/images/formLandmark.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  br {
+    line-height: 20px;
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    background-color: #f9f9f9;
+    margin-top: 5vh;
+    margin-bottom: 35vh;
+    height: 55vh;
+
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+     
+    .landmark_name,.landmark_street {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    .submit {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      max-width: 40%;
+      margin-top: 3vh;
+      border-radius: 3px;
+      padding: 10px 20px;
+      cursor: pointer;
+      
+    }
+    .submit:hover {
+      background-color: #0056b3;
+      transform: translateY(-1px);
+    }
+
+    .selector {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 30%;
+      max-width: 300px;
+      background-color: #fff;
+      color: #333;
+      transition:box-shadow 0.3s;
+    }
+    
+    .selector:hover {
+      border-color: #999;
+    }
+  }
+  
+  
+}
+ 
+
+
+
+
+

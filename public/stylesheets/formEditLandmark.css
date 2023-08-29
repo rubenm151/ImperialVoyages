@@ -1,0 +1,45 @@
+body {
+  background-image: url("/images/formEditLandmark.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .info-formulario {
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+}
+body .info-formulario form {
+  height: 40vh;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  background-color: #f9f9f9;
+}
+body .info-formulario form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+body .info-formulario form .landmark_name, body .info-formulario form .landmark_street {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+body .info-formulario form .submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+body .info-formulario form .submit .submit:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+}/*# sourceMappingURL=formEditLandmark.css.map */

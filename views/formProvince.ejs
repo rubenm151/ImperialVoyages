@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/3947aef1e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Add your Province</title>
+    <%- include('navbar') %>
+    <link rel="stylesheet" href="/stylesheets/formProvince.css" />
+    <body>
+      <div class="row">
+        <div
+          class="d-flex align-items-center justify-content-center mt-3 text-form col-12"
+        >
+          <h1>Add your Province</h1>
+        </div>
+      </div>
+      <form
+        action="/province/formRegisterProvince"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <label for="province_name">Province Name:</label>
+        <input
+          class="province_name"
+          type="text"
+          id="province_name"
+          name="province_name"
+        /><br /><br />
+        <label for="description">Description:</label>
+        <textarea
+          class="province_des"
+          id="description"
+          name="province_description"
+          rows="1"
+          cols="10"
+        ></textarea
+        ><br /><br />
+        <label for="email">Email:</label>
+        <input
+          class="province_email"
+          type="email"
+          id="email"
+          name="province_email"
+        /><br /><br />
+        <label for="tel">Telephone:</label>
+        <input
+          class="province_tel"
+          type="tel"
+          id="tel"
+          name="province_tel"
+        /><br /><br />
+        <label for="img">Image:</label>
+        <input
+          class="province_img"
+          type="file"
+          id="img"
+          name="img"
+        /><br /><br />
+        <label for="password">Password:</label>
+        <input
+          class="province_password"
+          type="password"
+          id="password"
+          name="province_password"
+        /><br /><br />
+        <input class="b-submit" value="Add Province" type="submit" />
+      </form>
+    </body>
+    <%- include('footer') %>
+

@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  height: 100vh;
+  background-image: url("/images/background-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: #F4A460;
+    font-family: Home-Font;
+  }
+}
+
